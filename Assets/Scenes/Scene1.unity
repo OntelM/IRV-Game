@@ -192,6 +192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 94506957}
   - component: {fileID: 94506958}
+  - component: {fileID: 94506959}
   m_Layer: 0
   m_Name: Save3
   m_TagString: Untagged
@@ -224,6 +225,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &94506959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 94506956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 566856a7885252b48b8971c3ed41c84e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: 3
 --- !u!1 &369592488
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 721602204}
   - component: {fileID: 721602205}
+  - component: {fileID: 721602206}
   m_Layer: 0
   m_Name: Save2
   m_TagString: Untagged
@@ -361,6 +375,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &721602206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 721602203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 566856a7885252b48b8971c3ed41c84e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: 2
 --- !u!1001 &1198858847
 Prefab:
   m_ObjectHideFlags: 0
@@ -399,6 +425,11 @@ Prefab:
     - target: {fileID: 4284289775261662, guid: 09c670f77c3766e48982930c8bfa9cf9, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114736827895630774, guid: 09c670f77c3766e48982930c8bfa9cf9,
+        type: 2}
+      propertyPath: m_JumpPower
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 09c670f77c3766e48982930c8bfa9cf9, type: 2}
@@ -440,6 +471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2143492884}
   - component: {fileID: 2143492885}
+  - component: {fileID: 2143492886}
   m_Layer: 0
   m_Name: Save1
   m_TagString: Untagged
@@ -472,3 +504,15 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2143492886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2143492883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 566856a7885252b48b8971c3ed41c84e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: 1
